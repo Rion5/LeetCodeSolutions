@@ -108,7 +108,7 @@ namespace LeetCodeSolutionsLib
                 Console.Write($"{num}, ");
             }
             Console.Write($"]");
-            Console.WriteLine($"Target = 10 \n" +
+            Console.WriteLine($"Target = {this.target} \n" +
                               $"Results: [{results[0]}, {results[1]}] \n" +
                               $"Execution Speed: {watch.ElapsedMilliseconds}ms");
         }
