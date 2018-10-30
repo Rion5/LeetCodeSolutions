@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LeetCode\LeetCodeSolutionLib.csproj" />
+    <ProjectReference Include="..\LeetCode\LeetCodeSolutionsLib.csproj" />
   </ItemGroup>
 
 </Project>

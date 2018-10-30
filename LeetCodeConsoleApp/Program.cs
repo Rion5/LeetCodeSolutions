@@ -16,6 +16,12 @@ namespace LeetCodeConsoleApp
             twoSums.PrintExample();
             #endregion
 
+            #region LongestSubstringWithoutRepeatingCharacters
+            //Problem: Given 2 non-empty linked lists where the digits are stroed in reverse order (each node can contain a single digit). 
+            //         Add the 2 numbers and return it as a linked list
+            LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeating = new LongestSubstringWithoutRepeatingCharacters("chaiabccccbchai");
+            longestSubstringWithoutRepeating.PrintExample();
+            #endregion
             Console.ReadLine();
 
         }
