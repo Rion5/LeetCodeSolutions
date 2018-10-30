@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LeetCodeSolutionLib
+namespace LeetCodeSolutionsLib
 {
     public abstract class Solution
     {
