@@ -101,6 +101,7 @@ namespace LeetCodeSolutionsLib
             var watch = System.Diagnostics.Stopwatch.StartNew();
             var results = TwoSumWithDictionary1Pass(this.nums, this.target);
             watch.Stop();
+            Console.WriteLine($"1. Two Sums = ");
             Console.Write($"int[] nums = [");
             foreach (int num in this.nums)
             {
@@ -109,7 +110,7 @@ namespace LeetCodeSolutionsLib
             Console.Write($"]");
             Console.WriteLine($"Target = {this.target} \n" +
                               $"Results: [{results[0]}, {results[1]}] \n" +
-                              $"Execution Speed: {watch.ElapsedMilliseconds}ms");
+                              $"Execution Speed: {watch.ElapsedMilliseconds}ms \n");
         }
     }
 }
