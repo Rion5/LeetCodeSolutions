@@ -19,8 +19,16 @@ namespace LeetCodeConsoleApp
             #region LongestSubstringWithoutRepeatingCharacters
             //Problem: Given 2 non-empty linked lists where the digits are stroed in reverse order (each node can contain a single digit). 
             //         Add the 2 numbers and return it as a linked list
-            LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeating = new LongestSubstringWithoutRepeatingCharacters("chaiabccccbchai");
+            LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeating = new LongestSubstringWithoutRepeatingCharacters("abcdecb");
             longestSubstringWithoutRepeating.PrintExample();
+            #endregion
+            #region FizzBuzz
+            //Problem: Wrie a program that outputs the string representation of numbers form 1 to n
+            //For multiples of 3 it should output "Fizz"
+            //For multiples of 5 it should output "Buzz"
+            //For multiples of both it should output "FizzBuzz";
+            FizzBuzz fizzBuzz = new FizzBuzz(15);
+            fizzBuzz.PrintExample();
             #endregion
             Console.ReadLine();
 
