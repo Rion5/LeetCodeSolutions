@@ -33,8 +33,8 @@ namespace LeetCodeConsoleApp
             #endregion
 
             #region Search Insert Position
-            int[] arr = {1, 3, 5, 6};
-            SearchInsertPosition searchInsertPosition = new SearchInsertPosition(arr,7);
+            int[] arr = {1, 3, 5, 10};
+            SearchInsertPosition searchInsertPosition = new SearchInsertPosition(arr,9);
             searchInsertPosition.PrintExample();
             #endregion
             Console.ReadLine();
