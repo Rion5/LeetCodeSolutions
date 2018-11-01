@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace LeetCodeSolutionsLib
@@ -23,38 +25,51 @@ namespace LeetCodeSolutionsLib
         private int LengthOfLongestSubstring(string inputString)
         {
             //Goal:
-            //0)    Check for strings of only size 1
-            //1)    Create an empty hashTable
+            //0)    Check for strings of only size 0-1
+            //1)    Create an empty hashSet
             //2)    Loop through each char of the passed in 'inputString'
-            //3)    Check if the hashTable contains the char
-            //        if true, then we have a repeating character so we
-            //          set highestCounter, clear hashTable, reset counter
-            //        else continue to add the letter to the hashTable and increment counter
-            //4)    Return highestCounter (highestCounter == max Length of non repeating substring)
+            //3)    Check if the hashSet does not contains the char
+            //          Add to hashSet
+            //4)    If the hashSet already contains the current char,
+            //      Increment the Pointer to the next letter,
+            //      Reset arrayIndex (i) back to the pointer
+            //      Clear the hashSet and repeat process
+            //Note: Performance could be improved because we rebuild the hashSet multiple times
+            if (inputString.Length == 0)
+            {
+                return 0;
+            }
             if (inputString.Length == 1)
             {
                 return 1;
             }
-            Hashtable hashtable = new Hashtable();
-            int counter = 0;
-            int highestCounter = 0;
-            for (int i = 0; i < inputString.Length; i++)
+
+            int i = 0;
+            int pointer = 0;
+            int maxSubstring = 0;
+            HashSet<string> hashSet = new HashSet<string>();
+            while (i < inputString.Length && pointer < inputString.Length)
             {
-                if (hashtable.ContainsKey(inputString[i]))
+                if (!hashSet.Contains(inputString[i].ToString()))
                 {
-                    //counter++;
-                    if (highestCounter <= counter)
-                    {
-                        highestCounter = counter;
-                    }
-                    hashtable.Clear();
-                    counter = 0;
+                    hashSet.Add(inputString[i++].ToString());
                 }
-                hashtable.Add(inputString[i], i); //(key, value) == (charOfString, arrayIndex)
-                counter++;
+                else
+                {
+                    if (hashSet.Count > maxSubstring)
+                    {
+                        maxSubstring = hashSet.Count;
+                    }
+                    pointer++;
+                    i = pointer;
+                    hashSet.Clear();
+                }
             }
-            //if highestCounter == 0, this means there were no repeating chars found, so return the entire string length
-            return highestCounter;
+            if (hashSet.Count > maxSubstring)
+            {
+                maxSubstring = hashSet.Count;
+            }
+            return maxSubstring;
         }
         public override void PrintExample()
         {
