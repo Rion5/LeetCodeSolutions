@@ -22,6 +22,7 @@ namespace LeetCodeConsoleApp
             LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeating = new LongestSubstringWithoutRepeatingCharacters("abcdecb");
             longestSubstringWithoutRepeating.PrintExample();
             #endregion
+
             #region FizzBuzz
             //Problem: Wrie a program that outputs the string representation of numbers form 1 to n
             //For multiples of 3 it should output "Fizz"
@@ -29,6 +30,12 @@ namespace LeetCodeConsoleApp
             //For multiples of both it should output "FizzBuzz";
             FizzBuzz fizzBuzz = new FizzBuzz(15);
             fizzBuzz.PrintExample();
+            #endregion
+
+            #region Search Insert Position
+            int[] arr = {1, 3, 5, 6};
+            SearchInsertPosition searchInsertPosition = new SearchInsertPosition(arr,7);
+            searchInsertPosition.PrintExample();
             #endregion
             Console.ReadLine();
 
