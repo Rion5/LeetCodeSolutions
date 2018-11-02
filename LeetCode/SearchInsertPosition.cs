@@ -24,7 +24,7 @@ namespace LeetCodeSolutionsLib
             this.target = target;
         }
 
-        private int SearchInsert(int[] nums, int target)
+        private int SearchInsertBruteForce(int[] nums, int target)
         {
             //Brute Force:
             //Time Complexity:  O(2n) where n = number of elements in the array
@@ -61,6 +61,45 @@ namespace LeetCodeSolutionsLib
             return nums.Length;
         }
 
+        private int SearchInsert(int[] nums, int target)
+        {
+            /*
+             * Time Complexity:  O(n) where n = number of elements in the array
+             * Space Complexity: O(1)
+             * 1)    Check if the target is less than the first number in the array, Or string.Length == 0.
+             * IE:   [1, 5, 7] , Target = -1       Output: 0
+             * 
+             * 2)    Check if target is greater than the last number in the array.
+             * IE:   [1, 5, 7] , Target = 10       Output: nums.Length => 3
+             * 
+             * 3)    Otherwise the target number exists in the array or inbetween 2 numbers in the array.
+             *       Loop through each number from i = 1 and check if the number is >= target.
+             *       If true, then return i index
+             * IE:   [1, 5, 7] , Target = 6       Output: 2
+             * 4)    Otherwise, the target should be at the end of the array
+             * */
+            //1)
+            if (target <= nums[0] || nums.Length == 0)
+            {
+                return 0;
+            }
+            //2)
+            if (target > nums[nums.Length - 1])
+            {
+                return nums.Length;
+            }
+            //3)
+            for (int i = 1; i < nums.Length; i++)
+            {
+                if (nums[i] >= target)
+                {
+                    return i;
+                }
+            }
+
+            //Otherwise, the target should be at the end of the array
+            return nums.Length;
+        }
         public override void PrintExample()
         {
             var watch = System.Diagnostics.Stopwatch.StartNew();
