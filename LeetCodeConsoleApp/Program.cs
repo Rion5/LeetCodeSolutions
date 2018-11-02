@@ -37,6 +37,12 @@ namespace LeetCodeConsoleApp
             SearchInsertPosition searchInsertPosition = new SearchInsertPosition(arr,9);
             searchInsertPosition.PrintExample();
             #endregion
+
+            #region Jewels and Stones
+            string j = "aA", s = "aAAbbbb";
+            JewelsAndStones jewelsAndStones = new JewelsAndStones(j, s);
+            jewelsAndStones.PrintExample();
+            #endregion
             Console.ReadLine();
 
         }

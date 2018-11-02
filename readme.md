@@ -6,3 +6,4 @@
 |**3**| **[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)** | **[C#](https://leetcode.com/submissions/detail/186675804/)** | **Medium** | **8%** |
 |**35**| **[Search Insert Position](https://leetcode.com/problems/search-insert-position/)** | **[C#](https://leetcode.com/submissions/detail/187002509/)** | **Easy** | **83%**|
 |**412**| **[FizzBuzz](https://leetcode.com/problems/fizz-buzz/)** | **[C#](https://leetcode.com/submissions/detail/186686654/)** | **Easy** | **61%**|
+| **771** | **[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)** | **[C#](https://leetcode.com/submissions/detail/187049818/)** | **Easy** | **100%** |
