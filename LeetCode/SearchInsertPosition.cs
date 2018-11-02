@@ -8,12 +8,12 @@ namespace LeetCodeSolutionsLib
     {
         /** Problem: Search Insert Position
          *
-         *  Given a sorted array and a taget value, return the index if the target is found. If not, rerun the index where it would be if it were inserted in order.
+         *  Given a sorted array and a target value, return the index if the target is found. If not, rerun the index where it would be if it were inserted in order.
          *
          *  Example:
          *  Input:      [1, 3, 5, 6]    Target = 5
          *  Output :    2
-         *  Explanation: Target '5' is found in the array at the index position 2
+         *  Explanation: Target '5' is found in the array at the index position [2]
          */
         private int[] nums;
         private int target;
@@ -32,7 +32,7 @@ namespace LeetCodeSolutionsLib
             //Loop through each int in the array.
             //1)      If the number is found, return the index of the position in the array.
             //2)      Else, we need to return the index of where the number should be.
-
+            
             //If the target is less than the first number in the array, then we need to return 0
             if (target < nums[0])
             {
