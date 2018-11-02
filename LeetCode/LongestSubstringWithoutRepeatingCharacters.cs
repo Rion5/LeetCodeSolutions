@@ -11,7 +11,7 @@ namespace LeetCodeSolutionsLib
     {
         /** Problem: Longest Substring Without Repeating Characters
          *
-         *  Given a string, find the length of the longest substring without reapting characters
+         *  Given a string, find the length of the longest substring without repeating characters
          *
          *  Example: "abccbb"
          *  Output : 3
