@@ -43,6 +43,16 @@ namespace LeetCodeConsoleApp
             JewelsAndStones jewelsAndStones = new JewelsAndStones(j, s);
             jewelsAndStones.PrintExample();
             #endregion
+
+            #region Flipping an Image
+            int[][] flippingImageArray = new int[3][];
+            flippingImageArray[0] = new int[] { 1, 1, 0 };
+            flippingImageArray[1] = new int[] { 1, 0, 1 };
+            flippingImageArray[2] = new int[] { 0, 0, 0 };
+            FlippingAnImage flippingAnImage = new FlippingAnImage(flippingImageArray);
+            flippingAnImage.PrintExample();
+            #endregion
+
             Console.ReadLine();
 
         }
