@@ -8,3 +8,4 @@
 |**35**| **[Search Insert Position](https://leetcode.com/problems/search-insert-position/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/SearchInsertPosition.cs)** | **Easy** | **83%**|
 |**412**| **[FizzBuzz](https://leetcode.com/problems/fizz-buzz/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FizzBuzz.cs)** | **Easy** | **61%**|
 | **771** | **[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/JewelsAndStones.cs)** | **Easy** | **100%** |
+|**832**| **[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FlippingAnImage.cs)** | **Easy** | **12%** |
