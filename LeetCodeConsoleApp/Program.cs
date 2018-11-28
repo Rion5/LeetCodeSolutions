@@ -53,6 +53,12 @@ namespace LeetCodeConsoleApp
             flippingAnImage.PrintExample();
             #endregion
 
+            #region Remove Duplicates from Sorted Array
+
+            int[] nums = {1, 2, 3, 3, 4, 5, 5, 5, 5, 5, 5, 6};
+            RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray(nums);
+            removeDuplicatesFromSortedArray.PrintExample();
+            #endregion
             Console.ReadLine();
 
         }
