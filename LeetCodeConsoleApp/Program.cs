@@ -59,6 +59,13 @@ namespace LeetCodeConsoleApp
             RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray(nums);
             removeDuplicatesFromSortedArray.PrintExample();
             #endregion
+
+            #region Reverse Integer
+
+            ReverseInteger reverseInteger = new ReverseInteger(-54321);
+            reverseInteger.PrintExample();
+
+            #endregion
             Console.ReadLine();
 
         }
