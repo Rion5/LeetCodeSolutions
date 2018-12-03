@@ -66,6 +66,19 @@ namespace LeetCodeConsoleApp
             reverseInteger.PrintExample();
 
             #endregion
+
+            #region MyCircularQueue
+
+            MyCircularQueue myCircularQueue = new MyCircularQueue(1);
+            Console.WriteLine("Circular Queue");
+            Console.WriteLine($"Front(): {myCircularQueue.Front()}");
+            Console.WriteLine($"IsEmpty() : {myCircularQueue.IsEmpty()}");
+            myCircularQueue.EnQueue(1);
+            Console.WriteLine($"IsEmpty() : {myCircularQueue.IsEmpty()}");
+            Console.WriteLine($"IsFull() : {myCircularQueue.IsFull()}");
+
+
+            #endregion
             Console.ReadLine();
 
         }
