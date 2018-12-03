@@ -8,6 +8,7 @@
 |**26**| **[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/RemoveDuplicatesFromSortedArray.cs)** | **Easy** | **41%** |
 |**35**| **[Search Insert Position](https://leetcode.com/problems/search-insert-position/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/SearchInsertPosition.cs)** | **Easy** | **83%**|
 |**412**| **[FizzBuzz](https://leetcode.com/problems/fizz-buzz/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FizzBuzz.cs)** | **Easy** | **61%**|
+|**622**| **[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MyCircularQueue.cs)** | **Medium** | **29%**|
 |**724**| **[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)** | C# | **Easy** | **33%**|
 |**747**| **[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)** | C# | **Easy** | **12%**|
 | **771** | **[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/JewelsAndStones.cs)** | **Easy** | **100%** |
