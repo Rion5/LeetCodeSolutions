@@ -23,34 +23,17 @@ namespace LeetCodeConsoleApp
             longestSubstringWithoutRepeating.PrintExample();
             #endregion
 
-            #region 412. FizzBuzz
-            //Problem: Wrie a program that outputs the string representation of numbers form 1 to n
-            //For multiples of 3 it should output "Fizz"
-            //For multiples of 5 it should output "Buzz"
-            //For multiples of both it should output "FizzBuzz";
-            FizzBuzz fizzBuzz = new FizzBuzz(15);
-            fizzBuzz.PrintExample();
+            #region 7. Reverse Integer
+
+            ReverseInteger reverseInteger = new ReverseInteger(-54321);
+            reverseInteger.PrintExample();
+
             #endregion
 
-            #region 35. Search Insert Position
-            int[] arr = {1, 3, 5, 10};
-            SearchInsertPosition searchInsertPosition = new SearchInsertPosition(arr,9);
-            searchInsertPosition.PrintExample();
-            #endregion
+            #region 9. Palindrome Number
 
-            #region 771. Jewels and Stones
-            string j = "aA", s = "aAAbbbb";
-            JewelsAndStones jewelsAndStones = new JewelsAndStones(j, s);
-            jewelsAndStones.PrintExample();
-            #endregion
+            
 
-            #region 832. Flipping an Image
-            int[][] flippingImageArray = new int[3][];
-            flippingImageArray[0] = new int[] { 1, 1, 0 };
-            flippingImageArray[1] = new int[] { 1, 0, 1 };
-            flippingImageArray[2] = new int[] { 0, 0, 0 };
-            FlippingAnImage flippingAnImage = new FlippingAnImage(flippingImageArray);
-            flippingAnImage.PrintExample();
             #endregion
 
             #region 26. Remove Duplicates from Sorted Array
@@ -59,12 +42,20 @@ namespace LeetCodeConsoleApp
             RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray(nums);
             removeDuplicatesFromSortedArray.PrintExample();
             #endregion
-
-            #region 7. Reverse Integer
-
-            ReverseInteger reverseInteger = new ReverseInteger(-54321);
-            reverseInteger.PrintExample();
-
+            
+            #region 35. Search Insert Position
+            int[] arr = {1, 3, 5, 10};
+            SearchInsertPosition searchInsertPosition = new SearchInsertPosition(arr,9);
+            searchInsertPosition.PrintExample();
+            #endregion
+            
+            #region 412. FizzBuzz
+            //Problem: Wrie a program that outputs the string representation of numbers form 1 to n
+            //For multiples of 3 it should output "Fizz"
+            //For multiples of 5 it should output "Buzz"
+            //For multiples of both it should output "FizzBuzz";
+            FizzBuzz fizzBuzz = new FizzBuzz(15);
+            fizzBuzz.PrintExample();
             #endregion
 
             #region 622. MyCircularQueue
@@ -80,10 +71,19 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
-            #region 9. Palindrome Number
+            #region 771. Jewels and Stones
+            string j = "aA", s = "aAAbbbb";
+            JewelsAndStones jewelsAndStones = new JewelsAndStones(j, s);
+            jewelsAndStones.PrintExample();
+            #endregion
 
-            
-
+            #region 832. Flipping an Image
+            int[][] flippingImageArray = new int[3][];
+            flippingImageArray[0] = new int[] { 1, 1, 0 };
+            flippingImageArray[1] = new int[] { 1, 0, 1 };
+            flippingImageArray[2] = new int[] { 0, 0, 0 };
+            FlippingAnImage flippingAnImage = new FlippingAnImage(flippingImageArray);
+            flippingAnImage.PrintExample();
             #endregion
 
             Console.ReadLine();
