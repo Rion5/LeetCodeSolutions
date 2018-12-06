@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace LeetCodeSolutionsLib
@@ -27,11 +28,20 @@ namespace LeetCodeSolutionsLib
             this._num = num;
         }
 
-        //Time Complexity:  O(2n), n == number of digits in integer. Because we have to do a 2 loops, 1 for pushing and 1 for popping.
-        //Space Complexity: O(n),  n == number of digits in integer. This is because we need to create a stack with enough space for each digit.
+        // Time Complexity:  O(2n), n == number of digits in integer. Because we have to do a 2 loops, 1 for pushing and 1 for popping.
+        // Space Complexity: O(n),  n == number of digits in integer. This is because we need to create a stack with enough space for each digit.
         private bool isPalindrome(int num)
         {
-            // Intent: I will create a stack and push each digit onto the stack. If the number is a Palindrome, then when we pop the numbers off the stack, we should get the same number.
+            // 1) Create a stack and push each digit onto the stack.
+            // 2) At the end, pop each number off the stack
+            //    see if resulting numbers reads the same forwards and backwards
+
+            if (num < 0)
+            {
+                return false;
+            }
+
+            // 1)
             string numToString = num.ToString();
             Stack<char> stack = new Stack<char>();
             for (int i = 0; i <= numToString.Length - 1; i++)
@@ -40,7 +50,7 @@ namespace LeetCodeSolutionsLib
                 stack.Push(numToString[i]);
             }
             
-            // Now pop off the stack and see if the numbers read the same going backwards.
+            // 2)
             string result = "";
             for (int i = 0; i <= numToString.Length - 1; i++)
             {
