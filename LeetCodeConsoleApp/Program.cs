@@ -14,6 +14,7 @@ namespace LeetCodeConsoleApp
             //Space Complexity: O(n)
             TwoSums twoSums = new TwoSums(new int[] {2, 7, 11, 15}, 18);
             twoSums.PrintExample();
+
             #endregion
 
             #region 3. LongestSubstringWithoutRepeatingCharacters
@@ -21,32 +22,33 @@ namespace LeetCodeConsoleApp
             //         Add the 2 numbers and return it as a linked list
             LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeating = new LongestSubstringWithoutRepeatingCharacters("abcdecb");
             longestSubstringWithoutRepeating.PrintExample();
+
             #endregion
 
             #region 7. Reverse Integer
-
             ReverseInteger reverseInteger = new ReverseInteger(-54321);
             reverseInteger.PrintExample();
 
             #endregion
 
             #region 9. Palindrome Number
-
-            
+            PalindromeNumber palindromeNumber = new PalindromeNumber(121);
+            palindromeNumber.PrintExample();
 
             #endregion
 
             #region 26. Remove Duplicates from Sorted Array
-
             int[] nums = {1, 2, 3, 3, 4, 5, 5, 5, 5, 5, 5, 6};
             RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray(nums);
             removeDuplicatesFromSortedArray.PrintExample();
+
             #endregion
             
             #region 35. Search Insert Position
             int[] arr = {1, 3, 5, 10};
             SearchInsertPosition searchInsertPosition = new SearchInsertPosition(arr,9);
             searchInsertPosition.PrintExample();
+
             #endregion
             
             #region 412. FizzBuzz
@@ -56,18 +58,17 @@ namespace LeetCodeConsoleApp
             //For multiples of both it should output "FizzBuzz";
             FizzBuzz fizzBuzz = new FizzBuzz(15);
             fizzBuzz.PrintExample();
+
             #endregion
 
             #region 622. MyCircularQueue
-
             MyCircularQueue myCircularQueue = new MyCircularQueue(1);
-            Console.WriteLine("Circular Queue");
+            Console.WriteLine("622. Circular Queue");
             Console.WriteLine($"Front(): {myCircularQueue.Front()}");
             Console.WriteLine($"IsEmpty() : {myCircularQueue.IsEmpty()}");
             myCircularQueue.EnQueue(1);
             Console.WriteLine($"IsEmpty() : {myCircularQueue.IsEmpty()}");
             Console.WriteLine($"IsFull() : {myCircularQueue.IsFull()}");
-
 
             #endregion
 
@@ -75,6 +76,7 @@ namespace LeetCodeConsoleApp
             string j = "aA", s = "aAAbbbb";
             JewelsAndStones jewelsAndStones = new JewelsAndStones(j, s);
             jewelsAndStones.PrintExample();
+
             #endregion
 
             #region 832. Flipping an Image
@@ -84,6 +86,7 @@ namespace LeetCodeConsoleApp
             flippingImageArray[2] = new int[] { 0, 0, 0 };
             FlippingAnImage flippingAnImage = new FlippingAnImage(flippingImageArray);
             flippingAnImage.PrintExample();
+
             #endregion
 
             Console.ReadLine();
