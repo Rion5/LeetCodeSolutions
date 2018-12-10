@@ -51,6 +51,13 @@ namespace LeetCodeConsoleApp
 
             #endregion
             
+            #region 217. Contains Duplicate
+
+            int[] containsDuplicatesArray = new int[]{1,2,3,1};
+            ContainsDuplicate containsDuplicate = new ContainsDuplicate(containsDuplicatesArray);
+            containsDuplicate.PrintExample();
+            #endregion
+           
             #region 412. FizzBuzz
             //Problem: Wrie a program that outputs the string representation of numbers form 1 to n
             //For multiples of 3 it should output "Fizz"
@@ -88,6 +95,7 @@ namespace LeetCodeConsoleApp
             flippingAnImage.PrintExample();
 
             #endregion
+
 
             Console.ReadLine();
 
