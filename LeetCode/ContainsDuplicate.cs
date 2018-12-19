@@ -4,6 +4,12 @@ using System.Text;
 
 namespace LeetCodeSolutionsLib
 {
+    /// <summary>
+    /// 387. Contains Duplicates
+    /// Given an array of integers, find if the array contains any duplicates.
+    /// IE) Input:  [1,2,3,1]
+    ///     Output: true
+    /// </summary>
     public class ContainsDuplicate : Solution
     {
         private int[] _nums;
@@ -50,7 +56,7 @@ namespace LeetCodeSolutionsLib
             var watch = System.Diagnostics.Stopwatch.StartNew();
             var result = containsDuplicates(this._nums);
             watch.Stop();
-            Console.WriteLine($". Contains Duplicates\n" +
+            Console.WriteLine($"217. Contains Duplicates\n" +
                               $"Input nums = [{this.printInputArray(this._nums)}] \n" +
                               $"Result: [{result}] \n" +
                               $"Execution Speed: {watch.ElapsedMilliseconds}ms \n");
