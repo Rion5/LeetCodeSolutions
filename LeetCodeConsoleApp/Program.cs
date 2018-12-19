@@ -57,9 +57,17 @@ namespace LeetCodeConsoleApp
             ContainsDuplicate containsDuplicate = new ContainsDuplicate(containsDuplicatesArray);
             containsDuplicate.PrintExample();
             #endregion
-           
+
+            #region 387. First Unique Character in a String
+
+            string firstUniqueCharacterString = "loveleetcode";
+            FirstUniqueCharacterInAString firstUniqueChar= new FirstUniqueCharacterInAString(firstUniqueCharacterString);
+            firstUniqueChar.PrintExample();
+
+            #endregion
+
             #region 412. FizzBuzz
-            //Problem: Wrie a program that outputs the string representation of numbers form 1 to n
+            //Problem: Write a program that outputs the string representation of numbers form 1 to n
             //For multiples of 3 it should output "Fizz"
             //For multiples of 5 it should output "Buzz"
             //For multiples of both it should output "FizzBuzz";
