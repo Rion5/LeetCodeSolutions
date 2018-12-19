@@ -58,6 +58,14 @@ namespace LeetCodeConsoleApp
             containsDuplicate.PrintExample();
             #endregion
 
+            #region 344. Reverse String
+
+            string reverseString344 = "A man with a plan";
+            ReverseString reverseString = new ReverseString(reverseString344);
+            reverseString.PrintExample();
+
+            #endregion
+
             #region 387. First Unique Character in a String
 
             string firstUniqueCharacterString = "loveleetcode";
