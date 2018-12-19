@@ -9,6 +9,7 @@
 |**26**| **[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/RemoveDuplicatesFromSortedArray.cs)** | **Easy** | **41%** |
 |**35**| **[Search Insert Position](https://leetcode.com/problems/search-insert-position/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/SearchInsertPosition.cs)** | **Easy** | **83%**|
 |**217**| **[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ContainsDuplicate.cs)** | **Easy** | **64%**|
+|**344**| **[Reverse String](https://leetcode.com/problems/reverse-string/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ReverseString.cs)** | **Easy** | **87%**|
 |**412**| **[FizzBuzz](https://leetcode.com/problems/fizz-buzz/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FizzBuzz.cs)** | **Easy** | **61%**|
 |**622**| **[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MyCircularQueue.cs)** | **Medium** | **63%**|
 |**724**| **[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)** | C# | **Easy** | **33%**|
