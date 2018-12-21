@@ -91,8 +91,15 @@ namespace LeetCodeConsoleApp
             Console.WriteLine($"IsEmpty() : {myCircularQueue.IsEmpty()}");
             myCircularQueue.EnQueue(1);
             Console.WriteLine($"IsEmpty() : {myCircularQueue.IsEmpty()}");
-            Console.WriteLine($"IsFull() : {myCircularQueue.IsFull()}");
+            Console.WriteLine($"IsFull() : {myCircularQueue.IsFull()}\n");
 
+            #endregion
+
+            #region 747. Largest Number at Least Twice of Others
+
+            LargestNumberAtLeastTwiceOfOthers largestNumberAtLeastTwiceOfOthers = new LargestNumberAtLeastTwiceOfOthers(new []{3,6,1,0});
+            largestNumberAtLeastTwiceOfOthers.PrintExample();
+        
             #endregion
 
             #region 771. Jewels and Stones
