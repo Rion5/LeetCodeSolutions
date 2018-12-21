@@ -54,19 +54,10 @@ namespace LeetCodeSolutionsLib
             var results = removeDuplicates(this._nums);
             watch.Stop();
             Console.WriteLine($"26. Remove Duplicates From a Sorted Array \n" +
-                              $"Input String = {printArray(_nums)} \n" +
+                              $"Input String = {this.PrintInputArray(_nums)} \n" +
                               $"Longest SubString: [{results}] \n" +
                               $"Execution Speed: {watch.ElapsedMilliseconds}ms \n");
         }
 
-        string printArray(int[] nums)
-        {
-            string sentence = "";
-            foreach (var num in nums.OrderBy(x=>x))
-            {
-                sentence += $"{num.ToString()} ";
-            }
-            return sentence;
-        }
     }
 }

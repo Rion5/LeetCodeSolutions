@@ -40,24 +40,13 @@ namespace LeetCodeSolutionsLib
             Console.WriteLine($"Hashset count: {hashset.Count} NumsArr length: {nums.Length}");
             return false;
         }
-
-        private string printInputArray(int[] nums)
-        {
-            string result = "";
-            for (int i = 0; i <= nums.Length - 1; i++)
-            {
-                result += $"{nums[i]} ";
-            }
-
-            return result;
-        }
         public override void PrintExample()
         {
             var watch = System.Diagnostics.Stopwatch.StartNew();
             var result = containsDuplicates(this._nums);
             watch.Stop();
             Console.WriteLine($"217. Contains Duplicates\n" +
-                              $"Input nums = [{this.printInputArray(this._nums)}] \n" +
+                              $"Input nums = [{this.PrintInputArray(this._nums)}] \n" +
                               $"Result: [{result}] \n" +
                               $"Execution Speed: {watch.ElapsedMilliseconds}ms \n");
         }

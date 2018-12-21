@@ -71,20 +71,9 @@ namespace LeetCodeSolutionsLib
             return -1;
         }
 
-        private string printInputArray(int[] nums)
-        {
-            string result = "";
-            for (int i = 0; i <= nums.Length - 1; i++)
-            {
-                result += $"{nums[i]} ";
-            }
-
-            return result;
-        }
-
         public override void PrintExample()
         {
-            string array = printInputArray(this._nums);
+            string array = this.PrintInputArray(this._nums);
             var watch = System.Diagnostics.Stopwatch.StartNew();
             var results = dominantIndex(this._nums);
             watch.Stop();
