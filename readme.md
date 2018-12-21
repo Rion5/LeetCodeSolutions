@@ -8,6 +8,7 @@
 |**9**| **[Palindrome Number](https://leetcode.com/problems/palindrome-number/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/PalindromeNumber.cs)** | **Easy** | **19%** |
 |**26**| **[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/RemoveDuplicatesFromSortedArray.cs)** | **Easy** | **41%** |
 |**35**| **[Search Insert Position](https://leetcode.com/problems/search-insert-position/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/SearchInsertPosition.cs)** | **Easy** | **83%**|
+|**136**| **[Single Number](https://leetcode.com/problems/single-number/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/SingleNumber.cs)** | **Easy** | **16%**|
 |**217**| **[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ContainsDuplicate.cs)** | **Easy** | **64%**|
 |**344**| **[Reverse String](https://leetcode.com/problems/reverse-string/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ReverseString.cs)** | **Easy** | **87%**|
 |**387**| **[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FirstUniqueCharacterInAString.cs)** | **Easy** | **56%**|
