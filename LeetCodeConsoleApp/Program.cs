@@ -50,7 +50,14 @@ namespace LeetCodeConsoleApp
             searchInsertPosition.PrintExample();
 
             #endregion
-            
+
+            #region 136. Single Number
+
+            SingleNumber singleNumber = new SingleNumber(new []{2,2,3,3,1});
+            singleNumber.PrintExample();
+
+            #endregion
+
             #region 217. Contains Duplicate
 
             int[] containsDuplicatesArray = new int[]{1,2,3,1};
