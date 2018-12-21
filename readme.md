@@ -14,7 +14,7 @@
 |**412**| **[FizzBuzz](https://leetcode.com/problems/fizz-buzz/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FizzBuzz.cs)** | **Easy** | **61%**|
 |**622**| **[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MyCircularQueue.cs)** | **Medium** | **63%**|
 |**724**| **[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)** | C# | **Easy** | **33%**|
-|**747**| **[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)** | C# | **Easy** | **12%**|
+|**747**| **[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/LargestNumberAtLeastTwiceOfOthers.cs)** | **Easy** | **12%**|
 | **771** | **[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/JewelsAndStones.cs)** | **Easy** | **100%** |
 |**832**| **[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FlippingAnImage.cs)** | **Easy** | **12%** |
 |**905**| **[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)** | C# | **Easy** | **27%** |
