@@ -51,6 +51,13 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 125. Valid Palindrome
+
+            ValidPalindrome validPalindrome = new ValidPalindrome("A man, a plan, a canal: Panama");
+            validPalindrome.PrintExample();
+
+            #endregion
+
             #region 136. Single Number
 
             SingleNumber singleNumber = new SingleNumber(new []{2,2,3,3,1});
