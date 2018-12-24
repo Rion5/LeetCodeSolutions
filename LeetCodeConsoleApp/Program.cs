@@ -38,15 +38,15 @@ namespace LeetCodeConsoleApp
             #endregion
 
             #region 26. Remove Duplicates from Sorted Array
-            int[] nums = {1, 2, 3, 3, 4, 5, 5, 5, 5, 5, 5, 6};
-            RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray(nums);
+
+            RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray(new [] { 1, 2, 3, 3, 4, 5, 5, 5, 5, 5, 5, 6 });
             removeDuplicatesFromSortedArray.PrintExample();
 
             #endregion
             
             #region 35. Search Insert Position
-            int[] arr = {1, 3, 5, 10};
-            SearchInsertPosition searchInsertPosition = new SearchInsertPosition(arr,9);
+
+            SearchInsertPosition searchInsertPosition = new SearchInsertPosition(new [] { 1, 3, 5, 10}, 9);
             searchInsertPosition.PrintExample();
 
             #endregion
@@ -60,23 +60,27 @@ namespace LeetCodeConsoleApp
 
             #region 217. Contains Duplicate
 
-            int[] containsDuplicatesArray = new int[]{1,2,3,1};
-            ContainsDuplicate containsDuplicate = new ContainsDuplicate(containsDuplicatesArray);
+            ContainsDuplicate containsDuplicate = new ContainsDuplicate(new [] {1,2,3,1});
             containsDuplicate.PrintExample();
+            #endregion
+
+            #region 268. Missing Number
+
+            MissingNumber missingNumber = new MissingNumber(new [] {9,6,4,2,3,5,7,0,1});
+            missingNumber.PrintExample();
+
             #endregion
 
             #region 344. Reverse String
 
-            string reverseString344 = "A man with a plan";
-            ReverseString reverseString = new ReverseString(reverseString344);
+            ReverseString reverseString = new ReverseString("A man with a plan");
             reverseString.PrintExample();
 
             #endregion
 
             #region 387. First Unique Character in a String
 
-            string firstUniqueCharacterString = "loveleetcode";
-            FirstUniqueCharacterInAString firstUniqueChar= new FirstUniqueCharacterInAString(firstUniqueCharacterString);
+            FirstUniqueCharacterInAString firstUniqueChar= new FirstUniqueCharacterInAString("loveleetcode");
             firstUniqueChar.PrintExample();
 
             #endregion
