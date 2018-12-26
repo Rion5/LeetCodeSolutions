@@ -51,6 +51,12 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 104. Maximum Depth of Binary Tree
+
+            
+
+            #endregion
+
             #region 125. Valid Palindrome
 
             ValidPalindrome validPalindrome = new ValidPalindrome("A man, a plan, a canal: Panama");
