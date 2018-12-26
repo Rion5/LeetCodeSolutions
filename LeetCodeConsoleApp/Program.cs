@@ -102,6 +102,13 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 485. Max Consecutive Ones
+
+            MaxConsecutiveOnes maxConsecutiveOnes = new MaxConsecutiveOnes(new int[]{1,1,0,1,1,1});
+            maxConsecutiveOnes.PrintExample();
+
+            #endregion
+
             #region 622. MyCircularQueue
             MyCircularQueue myCircularQueue = new MyCircularQueue(1);
             Console.WriteLine("622. Circular Queue");
