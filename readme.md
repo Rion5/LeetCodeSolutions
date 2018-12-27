@@ -2,7 +2,7 @@
 
 | # | Title | Solution | Difficulty | Performance Percentile |
 |---| ----- | -------- | ---------- | ---------------------- |
-|**1**| **[Two Sum](https://leetcode.com/problems/two-sum/)** | **[C#](https://github.com/Rion5/LeetCode/blob/master/LeetCode/TwoSums.cs)** | **Easy** | **75%** |
+|**1**| **[Two Sum](https://leetcode.com/problems/two-sum/)** | **[C#](https://github.com/Rion5/LeetCode/blob/master/LeetCode/TwoSums.cs)** | **Easy** | **96%** |
 |**3**| **[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/LongestSubstringWithoutRepeatingCharacters.cs)** | **Medium** | **8%** |
 |**7**| **[Reverse Integer](https://leetcode.com/problems/reverse-integer/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ReverseInteger.cs)** | **Easy** | **69%** |
 |**9**| **[Palindrome Number](https://leetcode.com/problems/palindrome-number/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/PalindromeNumber.cs)** | **Easy** | **19%** |
