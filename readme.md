@@ -11,7 +11,7 @@
 |**104**| **[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MaximumDepthOfBinaryTree.cs)** | **Easy** | **87%**|
 |**125**| **[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ValidPalindrome.cs)** | **Easy** | **13%**|
 |**136**| **[Single Number](https://leetcode.com/problems/single-number/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/SingleNumber.cs)** | **Easy** | **73%**|
-|**217**| **[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ContainsDuplicate.cs)** | **Easy** | **64%**|
+|**217**| **[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ContainsDuplicate.cs)** | **Easy** | **81%**|
 |**344**| **[Reverse String](https://leetcode.com/problems/reverse-string/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ReverseString.cs)** | **Easy** | **87%**|
 |**387**| **[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FirstUniqueCharacterInAString.cs)** | **Easy** | **56%**|
 |**412**| **[FizzBuzz](https://leetcode.com/problems/fizz-buzz/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FizzBuzz.cs)** | **Easy** | **61%**|
