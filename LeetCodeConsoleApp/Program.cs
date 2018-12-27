@@ -126,6 +126,13 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 709. To Lower Case
+
+            ToLowerCase toLowerCase = new ToLowerCase("LOVELY");
+            toLowerCase.PrintExample();
+
+            #endregion
+
             #region 747. Largest Number at Least Twice of Others
 
             LargestNumberAtLeastTwiceOfOthers largestNumberAtLeastTwiceOfOthers = new LargestNumberAtLeastTwiceOfOthers(new []{3,6,1,0});
