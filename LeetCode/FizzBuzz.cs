@@ -4,17 +4,17 @@ using System.Text;
 
 namespace LeetCodeSolutionsLib
 {
+    /// <summary>
+    /// 412. FizzBuzz
+    /// Write a program that outputs the string of numbers from 1 to n.
+    ///  for multiples of three it should output "Fizz"
+    ///  for multiples of five it should output  "Buzz"
+    ///  for multiples of both it should output  "FizzBuzz"
+    /// IE) Input:  n = 10
+    ///     Output: ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz"]
+    /// </summary>
     public class FizzBuzz : Solution
     {
-        /** Problem: Write a program that outputs the string of numbers from 1 to n.
-         *
-         * But for multiples of three it should output "Fizz"
-         *     for multiples of five it should output  "Buzz"
-         *     for multiples of both it should output  "FizzBuzz"
-         *
-         * Example: n = 10.
-         * Output: ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz"]
-         */
         private int n;
         public FizzBuzz(int n)
         {
@@ -35,21 +35,21 @@ namespace LeetCodeSolutionsLib
             //Loop through 0 - n and check if divisible by 3, 5, or both.
             for (int i = 1; i <= n; i++)
             {
-                //Divisible by 3 & 5 = "FizzBuzz"
+                // Divisible by 3 & 5 = "FizzBuzz"
                 if (i % 3 == 0 && i % 5 == 0)
                 {
                     result = "FizzBuzz";
                     list.Add(result);
                     continue;
                 }
-                //Divisible by 3 = "Fizz"
+                // Divisible by 3 = "Fizz"
                 if (i % 3 == 0)
                 {
                     result = "Fizz";
                     list.Add(result);
                     continue;
                 }
-                ////Divisible by 5 = "Buzz"
+                // Divisible by 5 = "Buzz"
                 if (i % 5 == 0)
                 {
                     result = "Buzz";
