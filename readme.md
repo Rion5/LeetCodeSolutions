@@ -12,6 +12,7 @@
 |**125**| **[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ValidPalindrome.cs)** | **Easy** | **13%**|
 |**136**| **[Single Number](https://leetcode.com/problems/single-number/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/SingleNumber.cs)** | **Easy** | **73%**|
 |**217**| **[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ContainsDuplicate.cs)** | **Easy** | **81%**|
+|**268**| **[Missing Number](https://leetcode.com/problems/missing-number/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MissingNumber.cs)** | **Easy** | **39%**|
 |**344**| **[Reverse String](https://leetcode.com/problems/reverse-string/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ReverseString.cs)** | **Easy** | **95%**|
 |**387**| **[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FirstUniqueCharacterInAString.cs)** | **Easy** | **59%**|
 |**412**| **[FizzBuzz](https://leetcode.com/problems/fizz-buzz/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FizzBuzz.cs)** | **Easy** | **61%**|
