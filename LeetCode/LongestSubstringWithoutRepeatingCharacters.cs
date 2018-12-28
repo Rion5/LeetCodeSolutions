@@ -7,20 +7,20 @@ using System.Text;
 
 namespace LeetCodeSolutionsLib
 {
+    /// <summary>
+    /// 3. Longest Substring Without Repeating Characters
+    /// Given a string, find the length of the longest substring without repeating characters
+    /// IE) Input  :  "abccbb"
+    ///     Output :  3
+    /// Explanation:  "abc" has a length of 3
+    /// </summary>
     public class LongestSubstringWithoutRepeatingCharacters : Solution
     {
-        /** Problem: Longest Substring Without Repeating Characters
-         *
-         *  Given a string, find the length of the longest substring without repeating characters
-         *
-         *  Example: "abccbb"
-         *  Output : 3
-         *  Explanation: "abc" has a length of 3
-         */
-        private string inputString = "";
+
+        private string _inputString = "";
         public LongestSubstringWithoutRepeatingCharacters(string inputString)
         {
-            this.inputString = inputString;
+            this._inputString = inputString;
         }
         private int LengthOfLongestSubstring(string inputString)
         {
@@ -74,10 +74,10 @@ namespace LeetCodeSolutionsLib
         public override void PrintExample()
         {
             var watch = System.Diagnostics.Stopwatch.StartNew();
-            var results = LengthOfLongestSubstring(this.inputString);
+            var results = LengthOfLongestSubstring(this._inputString);
             watch.Stop();
             Console.WriteLine($"3. Longest Substring Without Repeating Characters \n" +
-                              $"Input String = {this.inputString} \n" +
+                              $"Input String = {this._inputString} \n" +
                               $"Longest SubString: [{results}] \n" +
                               $"Execution Speed: {watch.ElapsedMilliseconds}ms \n");
         }
