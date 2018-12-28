@@ -47,7 +47,7 @@ namespace LeetCodeSolutionsLib
             var results = findMaxConsecutiveOnes(this._binaryArray);
             watch.Stop();
             Console.WriteLine($"485. Max Consecutive Ones\n" +
-                              $"Input Array = {PrintInputArray(this._binaryArray)} \n" +
+                              $"Input Array = {printInputArray(this._binaryArray)} \n" +
                               $"Result: [{results}] \n" +
                               $"Execution Speed: {watch.ElapsedMilliseconds}ms \n");
         }

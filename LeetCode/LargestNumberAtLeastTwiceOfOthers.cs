@@ -73,12 +73,11 @@ namespace LeetCodeSolutionsLib
 
         public override void PrintExample()
         {
-            string array = this.PrintInputArray(this._nums);
             var watch = System.Diagnostics.Stopwatch.StartNew();
             var results = dominantIndex(this._nums);
             watch.Stop();
             Console.WriteLine($"747. Largest Number At Least Twice of Others\n" +
-                              $"Input Array = {array} \n" +
+                              $"Input Array = {this.printInputArray(_nums)} \n" +
                               $"Result: [{results}] \n" +
                               $"Execution Speed: {watch.ElapsedMilliseconds}ms \n");
             dominantIndex(this._nums);

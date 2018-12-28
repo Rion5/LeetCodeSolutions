@@ -41,7 +41,7 @@ namespace LeetCodeSolutionsLib
             var results = missingNumber(this._nums);
             watch.Stop();
             Console.WriteLine($"268. Missing Number\n" +
-                              $"Input Array = {PrintInputArray(this._nums)} \n" +
+                              $"Input Array = {printInputArray(this._nums)} \n" +
                               $"Result: [{results}] \n" +
                               $"Execution Speed: {watch.ElapsedMilliseconds}ms \n");
         }

@@ -8,7 +8,7 @@ namespace LeetCodeSolutionsLib
     {
         public abstract void PrintExample();
 
-        public string PrintInputArray(int[] nums)
+        protected string printInputArray(int[] nums)
         {
             string result = "";
             for (int i = 0; i <= nums.Length - 1; i++)

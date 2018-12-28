@@ -51,7 +51,7 @@ namespace LeetCodeSolutionsLib
             var results = singleNumber(this._nums);
             watch.Stop();
             Console.WriteLine($"136. Single Number\n" +
-                              $"Input Array = {this.PrintInputArray(_nums)} \n" +
+                              $"Input Array = {this.printInputArray(_nums)} \n" +
                               $"Result: [{results}] \n" +
                               $"Execution Speed: {watch.ElapsedMilliseconds}ms \n");
         }
