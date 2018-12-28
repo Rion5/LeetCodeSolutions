@@ -22,12 +22,14 @@ namespace LeetCodeConsoleApp
             #endregion
 
             #region 7. Reverse Integer
+
             ReverseInteger reverseInteger = new ReverseInteger(-54321);
             reverseInteger.PrintExample();
 
             #endregion
 
             #region 9. Palindrome Number
+
             PalindromeNumber palindromeNumber = new PalindromeNumber(121);
             palindromeNumber.PrintExample();
 
@@ -40,17 +42,17 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
-            #region 58. Length of Last Word
-
-            LengthOfLastWord lengthOfLastWord = new LengthOfLastWord("Hello World");
-            lengthOfLastWord.PrintExample();
-
-            #endregion
-
             #region 35. Search Insert Position
 
             SearchInsertPosition searchInsertPosition = new SearchInsertPosition(new [] { 1, 3, 5, 10}, 9);
             searchInsertPosition.PrintExample();
+
+            #endregion
+            
+            #region 58. Length of Last Word
+
+            LengthOfLastWord lengthOfLastWord = new LengthOfLastWord("Hello World");
+            lengthOfLastWord.PrintExample();
 
             #endregion
 

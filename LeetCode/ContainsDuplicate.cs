@@ -5,7 +5,7 @@ using System.Text;
 namespace LeetCodeSolutionsLib
 {
     /// <summary>
-    /// 387. Contains Duplicates
+    /// 217. Contains Duplicates
     /// Given an array of integers, find if the array contains any duplicates.
     /// IE) Input:  [1,2,3,1]
     ///     Output: true

@@ -4,23 +4,21 @@ using System.Text;
 
 namespace LeetCodeSolutionsLib
 {
+    /// <summary>
+    /// 832. Flipping an Image
+    /// Given a binary matrix A, we want to flip the image horizontally, then invert it, and return the resulting image.
+    /// IE) Input:   [ [1,1,0], [1,0,1], [0,0,0] ]
+    ///     Output:  [ [1,0,0], [0,1,0], [1,1,1] ]
+    /// Explanation: First reverse each row: [ [0,1,1], [1,0,1], [0,0,0] ]
+    ///              Then, invert the image: [ [1,0,0], [0,1,0], [1,1,1] ]
+    /// </summary>
     public class FlippingAnImage : Solution
     {
-        /** Problem: Search Insert Position
-         *
-         *  Given a binary matrix A, we want to flip the image horizontally, then invert it, and return the resulting image.
-         *
-         *  Example:
-         *  Input:  [ [1,1,0], [1,0,1], [0,0,0] ]
-         *  Output: [ [1,0,0], [0,1,0], [1,1,1] ]
-         *  Explanation: First reverse each row: [ [0,1,1], [1,0,1], [0,0,0] ]
-                         Then, invert the image: [ [1,0,0], [0,1,0], [1,1,1] ]
-         */
-        private int[][] arr;
+        private int[][] _arr;
 
         public FlippingAnImage(int[][] array)
         {
-            this.arr = array;
+            this._arr = array;
         }
 
         int[][] FlipAndInvertImage(int[][] array)
@@ -54,10 +52,10 @@ namespace LeetCodeSolutionsLib
         public override void PrintExample()
         {
             var watch = System.Diagnostics.Stopwatch.StartNew();
-            var results = FlipAndInvertImage(this.arr);
+            var results = FlipAndInvertImage(this._arr);
+            watch.Stop();
             string resultString =
                 $"[ [{results[0][0]},{results[0][1]},{results[0][2]}], [{results[1][0]},{results[1][1]},{results[1][2]}], [{results[2][0]},{results[2][1]},{results[2][2]}] ]";
-            watch.Stop();
             Console.WriteLine($"832. Flipping an Image\n" +
                               $"Input:  [ [1,1,0], [1,0,1], [0,0,0] ]\n" +
                               $"Result: {resultString} \n" +

@@ -5,17 +5,15 @@ using System.Text;
 
 namespace LeetCodeSolutionsLib
 {
+    /// <summary>
+    /// 26. Remove Duplicates from Sorted Array
+    /// Given a sorted array 'nums', remove the duplicates in-place such that each element appear only once and return the new length.
+    /// Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+    /// IE) Input  :  nums = [1,1,2]
+    ///     Output :  length = 2, with the first two elements of nums being 1 and 2
+    /// </summary>
     public class RemoveDuplicatesFromSortedArray : Solution
     {
-        /** Problem 26: Remove Duplicates from Sorted Array
-        *
-        *  Given a sorted array 'nums', remove the duplicates in-place such that each element appear only once and return the new length.
-        *  Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
-        *
-        *  Example:
-        *  Input:    nums = [1,1,2]
-        *  Output :  length = 2, with the first two elements of nums being 1 and 2
-        */
         private int[] _nums;
 
         public RemoveDuplicatesFromSortedArray(int[] nums)

@@ -5,18 +5,15 @@ using System.Text;
 
 namespace LeetCodeSolutionsLib
 {
+    /// <summary>
+    /// 9. Palindrome Number
+    /// Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backwards as forward.
+    /// IE) Input  :  -121
+    ///     Output :  false
+    /// Explanation:  From left to right, it reads -121. From right to left, it reads 121-. Therefore it is NOT a palindrome.
+    /// </summary>
     public class PalindromeNumber : Solution
     {
-        /** Problem: Palindrome Number
-        *
-        *  Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backwards as forward.
-        *
-        *  Example:
-        *  Input:       -121
-        *  Output :     false
-        *  Explanation: From left to right, it reads -121. From right to left, it reads 121-. Therefore it is NOT a palindrome.
-        */
-
         private int _num;
 
         /// <summary>

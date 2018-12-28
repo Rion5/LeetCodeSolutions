@@ -4,23 +4,21 @@ using System.Text;
 
 namespace LeetCodeSolutionsLib
 {
+    /// <summary>
+    /// 35. Search Insert Position
+    /// Given a sorted array and a target value, return the index if the target is found. If not, rerun the index where it would be if it were inserted in order.
+    /// IE) Input  :  [1, 3, 5, 6]    Target = 5
+    ///     Output :  2
+    /// Explanation:  Target '5' is found in the array at the index position [2]
+    /// </summary>
     public class SearchInsertPosition :Solution
     {
-        /** Problem: Search Insert Position
-         *
-         *  Given a sorted array and a target value, return the index if the target is found. If not, rerun the index where it would be if it were inserted in order.
-         *
-         *  Example:
-         *  Input:      [1, 3, 5, 6]    Target = 5
-         *  Output :    2
-         *  Explanation: Target '5' is found in the array at the index position [2]
-         */
-        private int[] nums;
+        private int[] _nums;
         private int target;
 
         public SearchInsertPosition(int[] nums, int target)
         {
-            this.nums = nums;
+            this._nums = nums;
             this.target = target;
         }
 
@@ -103,7 +101,7 @@ namespace LeetCodeSolutionsLib
         public override void PrintExample()
         {
             var watch = System.Diagnostics.Stopwatch.StartNew();
-            var results = SearchInsert(this.nums, this.target);
+            var results = SearchInsert(this._nums, this.target);
             watch.Stop();
             Console.WriteLine($"35. Search Insert Position \n" +
                               $"Input String = [1, 3, 5, 10] Target = [{target}]\n" +
