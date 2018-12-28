@@ -16,6 +16,7 @@
 |**344**| **[Reverse String](https://leetcode.com/problems/reverse-string/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ReverseString.cs)** | **Easy** | **95%**|
 |**387**| **[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FirstUniqueCharacterInAString.cs)** | **Easy** | **59%**|
 |**412**| **[FizzBuzz](https://leetcode.com/problems/fizz-buzz/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FizzBuzz.cs)** | **Easy** | **61%**|
+|**485**| **[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MaxConsecutiveOnes.cs)** | **Easy** | **33%**|
 |**622**| **[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MyCircularQueue.cs)** | **Medium** | **86%**|
 |**724**| **[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)** | C# | **Easy** | **33%**|
 |**747**| **[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/LargestNumberAtLeastTwiceOfOthers.cs)** | **Easy** | **53%**|
