@@ -6,19 +6,15 @@ using System.Linq;
 
 namespace LeetCodeSolutionsLib
 {
+    /// <summary>
+    /// 1. Two Sum
+    /// Given an array of integers, return the indices of two numbers such that they equal the target number
+    /// IE) Input:  nums = [2, 7, 11, 15], target = 9,
+    ///     Output: [0, 1]
+    /// Explanation: Indices [0] + [1] ==> 2 + 7 == target
+    /// </summary>
     public class TwoSums : Solution
     {
-        #region Two Sums
-         /** Problem: Two Sum
-          *  Given an array of integers (int[] nums)
-          *  Return: the indices of two numbers such that they equal the target number
-          *
-          *  EXAMPLE:
-          *  Given nums = [2, 7, 11, 15], target = 9,
-          *  nums[0] + nums[1]
-          *  2 + 7 = 9,
-          *  Return: [0, 1]
-          */
         private int[] nums;
         private int target;
         public TwoSums(int[] nums, int target)
@@ -94,7 +90,6 @@ namespace LeetCodeSolutionsLib
             }
             throw new Exception("No Answers Found");
         }
-        #endregion
 
         public override void PrintExample()
         {
