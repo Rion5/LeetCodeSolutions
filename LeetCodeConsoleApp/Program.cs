@@ -39,7 +39,14 @@ namespace LeetCodeConsoleApp
             removeDuplicatesFromSortedArray.PrintExample();
 
             #endregion
-            
+
+            #region 58. Length of Last Word
+
+            LengthOfLastWord lengthOfLastWord = new LengthOfLastWord("Hello World");
+            lengthOfLastWord.PrintExample();
+
+            #endregion
+
             #region 35. Search Insert Position
 
             SearchInsertPosition searchInsertPosition = new SearchInsertPosition(new [] { 1, 3, 5, 10}, 9);
