@@ -76,6 +76,13 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 155. Min Stack
+
+            MinStack minStack = new MinStack();
+            minStack.PrintExample();
+
+            #endregion
+
             #region 217. Contains Duplicate
 
             ContainsDuplicate containsDuplicate = new ContainsDuplicate(new [] {1,2,3,1});
