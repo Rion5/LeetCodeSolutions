@@ -35,6 +35,13 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 20. Valid Parentheses
+
+            ValidParentheses validParentheses = new ValidParentheses("(){[]}");
+            validParentheses.PrintExample();
+
+            #endregion
+
             #region 26. Remove Duplicates from Sorted Array
 
             RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray(new [] { 1, 2, 3, 3, 4, 5, 5, 5, 5, 5, 5, 6 });
