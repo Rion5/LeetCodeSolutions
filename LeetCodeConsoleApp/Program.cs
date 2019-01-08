@@ -83,6 +83,13 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 150. Evaluate Reverse Polish Notation
+
+            EvaluateReversePolishNotation evaluateReversePolishNotation = new EvaluateReversePolishNotation(new []{ "2", "1", "+", "3", "*" });
+            evaluateReversePolishNotation.PrintExample();
+
+            #endregion
+
             #region 155. Min Stack
 
             MinStack minStack = new MinStack();
