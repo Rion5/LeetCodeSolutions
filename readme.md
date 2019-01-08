@@ -12,6 +12,7 @@
 |**104**| **[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MaximumDepthOfBinaryTree.cs)** | **Easy** | **87%**|
 |**125**| **[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ValidPalindrome.cs)** | **Easy** | **13%**|
 |**136**| **[Single Number](https://leetcode.com/problems/single-number/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/SingleNumber.cs)** | **Easy** | **73%**|
+|**150**| **[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/EvaluateReversePolishNotation.cs)** | **Medium** | **37%**|
 |**217**| **[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ContainsDuplicate.cs)** | **Easy** | **81%**|
 |**268**| **[Missing Number](https://leetcode.com/problems/missing-number/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MissingNumber.cs)** | **Easy** | **39%**|
 |**344**| **[Reverse String](https://leetcode.com/problems/reverse-string/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ReverseString.cs)** | **Easy** | **95%**|
