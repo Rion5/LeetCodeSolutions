@@ -8,7 +8,7 @@ namespace LeetCodeSolutionsLib
     /// <summary>
     /// 136. Single Number
     /// Given a NON-EMPTY array of integers, every element appears twice except for one. Find that single one
-    /// Note: Algorithm should run in linear runtime compleixty. It is also possible to implement without using extra memory
+    /// Note: Algorithm should run in linear runtime complexity. It is also possible to implement without using extra memory
     /// IE) Input  :  [2, 2, 3, 1, 3]
     ///     Output :  1
     /// Explanation:  1 is the element that only appears once
