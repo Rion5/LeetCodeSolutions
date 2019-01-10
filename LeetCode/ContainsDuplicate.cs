@@ -46,7 +46,7 @@ namespace LeetCodeSolutionsLib
             var result = containsDuplicates(this._nums);
             watch.Stop();
             Console.WriteLine($"217. Contains Duplicates\n" +
-                              $"Input nums = [{this.printInputArray(this._nums)}] \n" +
+                              $"Input Array = {this.printInputArray(this._nums)} \n" +
                               $"Result: [{result}] \n" +
                               $"Execution Speed: {watch.ElapsedMilliseconds}ms \n");
         }
