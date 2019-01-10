@@ -31,10 +31,9 @@ namespace LeetCodeSolutionsLib
                 {
                     result += $"{input[row, col]} ";
                 }
-                result.TrimEnd();
-                result += "],\n";
+                result += "]\n";
             }
-
+            //result.TrimEnd('\n');
             return result;
         }
     }
