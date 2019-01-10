@@ -57,7 +57,7 @@ namespace LeetCodeSolutionsLib
             }
 
             // Otherwise mark this position 'T' to know that we have already traveled here
-            //  And continue to travel to neighboring positions
+            //  And continue to travel to neighboring positions (DFS - Depth First Search)
             grid[row, column] = 'T';
             travelIsland(grid, row + 1, column);    // Travel Right
             travelIsland(grid, row - 1, column);    // Travel Left
@@ -66,7 +66,13 @@ namespace LeetCodeSolutionsLib
         }
         public override void PrintExample()
         {
-            throw new NotImplementedException();
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            var results = numIslands(this._grid);
+            watch.Stop();
+            Console.WriteLine($"200. Number of Islands\n" +
+                              $"Input Grid = \n{this.print2DInputArray(this._grid)}" +
+                              $"Number of Islands: [{results}] \n" +
+                              $"Execution Speed: {watch.ElapsedMilliseconds}ms \n");
         }
     }
 }

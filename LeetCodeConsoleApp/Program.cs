@@ -97,6 +97,19 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 200. Number of Islands
+
+            NumberOfIslands numberOfIslands = new NumberOfIslands(new char[,]
+            {
+                {'1', '1', '0', '0', '0'}, 
+                {'1', '1', '0', '0', '0'}, 
+                {'0', '0', '1', '0', '0'},
+                {'0', '0', '0', '1', '1'}
+            });
+            numberOfIslands.PrintExample();
+
+            #endregion
+
             #region 217. Contains Duplicate
 
             ContainsDuplicate containsDuplicate = new ContainsDuplicate(new [] {1,2,3,1});
