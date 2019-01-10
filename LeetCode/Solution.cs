@@ -33,7 +33,6 @@ namespace LeetCodeSolutionsLib
                 }
                 result += "]\n";
             }
-            //result.TrimEnd('\n');
             return result;
         }
     }
