@@ -152,6 +152,13 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 509. Fibonacci Number
+
+            FibonacciNumber fibonacciNumber = new FibonacciNumber(10);
+            fibonacciNumber.PrintExample();
+
+            #endregion
+
             #region 622. MyCircularQueue
 
             MyCircularQueue myCircularQueue = new MyCircularQueue(1);
