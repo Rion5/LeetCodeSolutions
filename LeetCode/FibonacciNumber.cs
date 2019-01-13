@@ -22,6 +22,7 @@ namespace LeetCodeSolutionsLib
 
         private int fib(int n)
         {
+            /*
             // Base cases
             int result = 0;
             if (n == 0) return result;
@@ -35,12 +36,53 @@ namespace LeetCodeSolutionsLib
                 result = fib(n - 1) + fib(n - 2);
             }
             return result;
+            */
+            int?[] memo = new int?[n+1];
+            return fibMemoization(n, memo);
+        }
+
+        // Using Memoization to cache Fibonacci results
+        // Improves Time Complexity from O(2^n) to O(n)
+        private int fibMemoization(int n, int?[] memo)
+        {
+            // If the result has already been calculated, it will exist in the memo array.
+            if (memo[n] != null) return (int) memo[n];
+            int result = 0;
+            if (n == 0) return result;
+            if (n == 1 || n == 2)
+            {
+                result = 1;
+            }
+            else
+            {
+                result = fib(n - 1) + fib(n - 2);
+                memo[n] = result;
+            }
+            return result;
+        }
+
+        private int fibBottomUp(int n)
+        {
+            // Time Complexity : O(n)
+            // Space Complexity: O(n), where n is the input number
+            // Base Cases
+            if (n == 0) return 0;
+            if (n == 1 || n == 2) return 1;
+            // Build the Fibonacci Sequence from left to right iteratively
+            int[] bottomUp = new int[n + 1];
+            bottomUp[1] = 1;
+            bottomUp[2] = 1;
+            for (int i = 3; i < bottomUp.Length; i++)
+            {
+                bottomUp[i] = bottomUp[i - 1] + bottomUp[i - 2];
+            }
+            return bottomUp[n];
         }
 
         public override void PrintExample()
         {
             var watch = System.Diagnostics.Stopwatch.StartNew();
-            var results = fib(this.n);
+            var results = fibBottomUp(this.n);
             watch.Stop();
             Console.WriteLine($"509. Fibonacci Number\n" +
                               $"Input Num = {this.n} \n" +
