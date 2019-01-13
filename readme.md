@@ -10,6 +10,7 @@
 |**26**| **[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/RemoveDuplicatesFromSortedArray.cs)** | **Easy** | **49%** |
 |**35**| **[Search Insert Position](https://leetcode.com/problems/search-insert-position/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/SearchInsertPosition.cs)** | **Easy** | **99%**|
 |**58**| **[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/LengthOfLastWord.cs)** | **Easy** | **59%**|
+|**94**| **[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/BinaryTreeInorderTraversal.cs)** | **Medium** | **88%**|
 |**104**| **[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MaximumDepthOfBinaryTree.cs)** | **Easy** | **87%**|
 |**125**| **[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ValidPalindrome.cs)** | **Easy** | **13%**|
 |**136**| **[Single Number](https://leetcode.com/problems/single-number/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/SingleNumber.cs)** | **Easy** | **73%**|
