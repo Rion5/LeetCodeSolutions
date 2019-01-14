@@ -48,7 +48,7 @@ namespace LeetCodeSolutionsLib
                 // 3)
                 if (dictionary.ContainsValue(s[i]) && stack.Count >= 1)
                 {
-                    // If the element at the top of the stack 
+                    // If there is element at the top of the stack, store it as 'topChar' and see if it's key points to the current char's value
                     char topChar;
                     if (stack.TryPeek(out topChar) == true)
                     {
