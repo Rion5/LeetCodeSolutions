@@ -178,6 +178,13 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 739. Daily Temperatures
+
+            DailyTemperatures dailyTemperatures = new DailyTemperatures(new []{89, 62, 70, 58, 47, 47, 46, 76, 100, 70});
+            dailyTemperatures.PrintExample();
+
+            #endregion
+
             #region 747. Largest Number at Least Twice of Others
 
             LargestNumberAtLeastTwiceOfOthers largestNumberAtLeastTwiceOfOthers = new LargestNumberAtLeastTwiceOfOthers(new []{3,6,1,0});
