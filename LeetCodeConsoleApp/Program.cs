@@ -97,6 +97,13 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 167. Two Sum II - Inpur array is sorted
+
+            TwoSumII twoSumII = new TwoSumII(new []{1,2,3,7}, 10);
+            twoSumII.PrintExample();
+
+            #endregion
+
             #region 200. Number of Islands
 
             NumberOfIslands numberOfIslands = new NumberOfIslands(new char[,]
