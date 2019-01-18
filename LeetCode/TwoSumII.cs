@@ -88,7 +88,7 @@ namespace LeetCodeSolutionsLib
             Console.WriteLine($"167. Two Sum II - Input array is sorted\n" +
                               $"Input String =  {printInputArray(this._numbers)} Target = {this._target} \n" +
                               $"Result:         {printInputArray(results)} \n" +
-                              $"Execution Speed: {watch.ElapsedTicks}ms \n");
+                              $"Execution Speed: {watch.ElapsedTicks} ticks \n");
         }
     }
 }
