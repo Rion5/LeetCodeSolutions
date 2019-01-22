@@ -28,6 +28,13 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 8. String to Integer (atoi)
+
+            StringToInteger stringToInteger = new StringToInteger("  -42");
+            stringToInteger.PrintExample();
+
+            #endregion
+
             #region 9. Palindrome Number
 
             PalindromeNumber palindromeNumber = new PalindromeNumber(121);

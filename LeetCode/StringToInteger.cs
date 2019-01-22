@@ -15,53 +15,43 @@ namespace LeetCodeSolutionsLib
 
         private int stringToInteger(string input)
         {
-            // Base cases
-            // Return 0 if string is null, or starts with a letter
             input = input.Trim();
-            if (String.IsNullOrEmpty(input)) return 0;
-            char[] charArray = input.ToCharArray();
-            if (!Char.IsNumber(charArray[0]) || charArray[0] == '-') return 0;
+            // Base Cases
+            if (String.IsNullOrEmpty(input) || !(Char.IsDigit(input[0]) || input[0] == '+' || input[0] == '-') ) { return 0; }
 
-            bool neg = false || charArray[0] == '-';
+            string trimedString = String.Empty;
 
-            // Build string if char is a num between (0-9)
-            StringBuilder number = new StringBuilder();
-            for (int i = 0; i < charArray.Length; i++)
+            for (int i = 0; i < input.Length; i++)
             {
-                if (Char.IsNumber(charArray[i]))
-                {
-                    number.Append(charArray[i]);
-                }
+                trimedString += input[i];
 
-                if (!Char.IsNumber(charArray[i]))
+                if (i + 1 < input.Length && !Char.IsDigit(input[i + 1]))
                 {
                     break;
                 }
             }
 
-            if (number.Length >= 10)
-            {
-                return neg ? int.MinValue : int.MaxValue;
-            }
-
-            // Convert string to double and
-            //     check for extra conditionals, as asked in the problem
-            long result;
-            try
-            {
-                result = Convert.ToInt64(number.ToString());
-            }
-            catch (Exception)
+            if (trimedString == "+" || trimedString == "-")
             {
                 return 0;
             }
-            if (neg)
+
+            // Check if trimedString, when converted to an number, fits in Int32
+            int number = 0;
+
+            if (Int32.TryParse(trimedString, out number))
             {
-                result *= -1;
+                return number;
             }
-
-
-            return (int)result;
+            // otherwise the number is too big or small and we need to either return Int32.MaxValue or .MinValue
+            else if (trimedString.Contains('-'))
+            {
+                return Int32.MinValue;
+            }
+            else
+            {
+                return Int32.MaxValue;
+            }
         }
         public override void PrintExample()
         {
