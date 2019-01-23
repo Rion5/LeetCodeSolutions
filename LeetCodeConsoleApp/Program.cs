@@ -173,17 +173,20 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
-            #region 622. MyCircularQueue
+            #region 622. Design Circular Queue
 
-            MyCircularQueue myCircularQueue = new MyCircularQueue(1);
-            Console.WriteLine("622. Circular Queue");
-            Console.WriteLine($"Front(): {myCircularQueue.Front()}");
-            Console.WriteLine($"IsEmpty() : {myCircularQueue.IsEmpty()}");
-            myCircularQueue.EnQueue(1);
-            Console.WriteLine($"IsEmpty() : {myCircularQueue.IsEmpty()}");
-            Console.WriteLine($"IsFull() : {myCircularQueue.IsFull()}\n");
+            CircularQueue circularQueue = new CircularQueue(1);
+            Console.WriteLine("622. Design Circular Queue");
+            Console.WriteLine($"Front()   : {circularQueue.Front()}");
+            Console.WriteLine($"IsEmpty() : {circularQueue.IsEmpty()}");
+            circularQueue.EnQueue(1);
+            Console.WriteLine($"EnQueue(1)");
+            Console.WriteLine($"IsEmpty() : {circularQueue.IsEmpty()}");
+            Console.WriteLine($"IsFull()  : {circularQueue.IsFull()}\n");
 
             #endregion
+
+
 
             #region 709. To Lower Case
 

@@ -10,7 +10,7 @@ namespace LeetCodeSolutionsLib
     /// IE) Input:  [1,2,3,1]
     ///     Output: true
     /// </summary>
-    public class MyCircularQueue
+    public class CircularQueue
     {
         private int _headPtr;
         private int _tailPtr;
@@ -18,7 +18,7 @@ namespace LeetCodeSolutionsLib
         private int[] _data;
 
         /** Initialize your data structure here. Set the size of the queue to be k. */
-        public MyCircularQueue(int k)
+        public CircularQueue(int k)
         {
             _size = k;
             _headPtr = -1;
@@ -40,7 +40,7 @@ namespace LeetCodeSolutionsLib
             }
             _tailPtr = (_tailPtr + 1) % (_size);      // Move tailPtr up 1
             _data[_tailPtr] = value;
-            Console.WriteLine($"EnQueue : {value}");
+            // Console.WriteLine($"EnQueue : {value}");
             return true;
         }
 
@@ -61,7 +61,7 @@ namespace LeetCodeSolutionsLib
                 return true;
             }
             _headPtr = (_headPtr + 1) % (_size);      // Move headPtr up 1
-            Console.WriteLine($"DeQueue : {_data[_tailPtr]}");
+            // Console.WriteLine($"DeQueue : {_data[_tailPtr]}");
             return true;
         }
 
