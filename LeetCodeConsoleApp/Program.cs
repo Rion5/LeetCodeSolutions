@@ -1,5 +1,6 @@
 ﻿using System;
 using LeetCodeSolutionsLib;
+using LeetCodeSolutionsLib.DataStructures;
 
 namespace LeetCodeConsoleApp
 {
@@ -186,7 +187,14 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 707. Design Linked List
 
+            LinkedList linkedList = new LinkedList(new Node());
+            linkedList.AddAtTail(10);
+            linkedList.AddAtTail(20);
+            linkedList.PrintLinkedList();
+
+            #endregion
 
             #region 709. To Lower Case
 
