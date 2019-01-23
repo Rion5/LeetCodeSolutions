@@ -24,7 +24,7 @@
 |**412**| **[FizzBuzz](https://leetcode.com/problems/fizz-buzz/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FizzBuzz.cs)** | **Easy** | **61%**|
 |**485**| **[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MaxConsecutiveOnes.cs)** | **Easy** | **33%**|
 |**509**| **[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/FibonacciNumber.cs)** | **Easy** | **100%**|
-|**622**| **[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/MyCircularQueue.cs)** | **Medium** | **86%**|
+|**622**| **[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/CircularQueue.cs)** | **Medium** | **86%**|
 |**709**| **[To Lower Case](https://leetcode.com/problems/to-lower-case/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/ToLowerCase.cs)** | **Easy** | **98%**|
 |**724**| **[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)** | C# | **Easy** | **33%**|
 |**739**| **[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)** | **[C#](https://github.com/Rion5/LeetCodeSolutions/blob/master/LeetCode/DailyTemperatures.cs)** | **Medium** | **46%**|
