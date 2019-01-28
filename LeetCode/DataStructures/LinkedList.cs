@@ -12,17 +12,11 @@ namespace LeetCodeSolutionsLib.DataStructures
         public Node Previous;
 
         // Constructors
-        public Node()
-        {
-            this.Data = 0;
-            this.Next = null;
-            this.Previous = null;
-        }
-
         public Node(int value)
         {
             this.Data = value;
-            this.Next = new Node();
+            this.Next = null;
+            this.Previous = null;
         }
     }
 
@@ -35,13 +29,26 @@ namespace LeetCodeSolutionsLib.DataStructures
         private Node _head;
         private Node _tail;
 
-        public int Count;
+        public int Count = 0;
         
         // Constructors
-        public LinkedList() { }
+        public LinkedList()
+        {
+            this._head = null;
+            this._tail = null;
+        }
         public LinkedList(Node head)
         {
             this._head = head;
+            if (head.Next == null)
+            {
+                Count = 1;
+            }
+            while (head.Next != null)
+            {
+                this._tail = head.Next;
+                Count++;
+            }
         }
 
         //TODO: get(index), addAtHead(val), addAtTail(val), addAtIndex(index, val), deleteAtIndex(index)
@@ -64,8 +71,8 @@ namespace LeetCodeSolutionsLib.DataStructures
                 {
                     node = node.Next;
                 }
-                node.Next = new Node();
-                node.Next.Data = val;       // Insert value at the end of the linked list
+                node.Next = new Node(val);  // Insert value at the end of the linked list   
+                Count++;
             }
             catch
             {
@@ -75,9 +82,6 @@ namespace LeetCodeSolutionsLib.DataStructures
 
         public void AddAtIndex(int index, int val)
         {
-            // Intent: Loop through once and get the Count of nodes
-            // Using a temp variable, insert the node into the corret index, and shift all nodes to the right by 1
-            if (index < 0 || index > Count) return;
 
         }
 
@@ -87,6 +91,7 @@ namespace LeetCodeSolutionsLib.DataStructures
             Console.WriteLine($"Print Linked List");
             Console.Write($"HEAD => ");
             Node node = _head;
+            if (node.Data == null && node.Next == null) return;  //Check if LinkedList is null & empty
             while (node.Data != null && node.Next != null)
             {
                 Console.Write($"{node.Data} => ");
