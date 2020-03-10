@@ -73,7 +73,7 @@ namespace LeetCodeConsoleApp
 
             #region 104. Maximum Depth of Binary Tree
 
-            
+
 
             #endregion
 
@@ -189,7 +189,7 @@ namespace LeetCodeConsoleApp
 
             #region 707. Design Linked List
 
-            LinkedList linkedList = new LinkedList(new Node());
+            LinkedList linkedList = new LinkedList();
             linkedList.AddAtTail(10);
             linkedList.AddAtTail(20);
             linkedList.PrintLinkedList();
@@ -241,6 +241,12 @@ namespace LeetCodeConsoleApp
 
             #endregion
 
+            #region 1342 Number of Steps to Reduce a Number to Zero
+
+            NumberOfStepsToReduceNumberToZero numberOfStepsToReduceNumberToZero = new NumberOfStepsToReduceNumberToZero(8);
+            numberOfStepsToReduceNumberToZero.PrintExample();
+
+            #endregion
 
             Console.ReadLine();
 
